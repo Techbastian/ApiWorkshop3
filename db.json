@@ -1,118 +1,394 @@
 {
+    "restaurantes": [
+        {
+            "id": 1,
+            "nombre": "Bites",
+            "logo": "https://res.cloudinary.com/semojicaf/image/upload/v1724818752/food-delivery-app/panaderia.jpg",
+            "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis. Mauris eu ex.",
+            "estrellas": 5,
+            "horario": "7:00 - 17:00",
+            "tipo": "Panadería",
+            "carta": [
+                {
+                    "id": 1,
+                    "nombre": "Pan de chocolate - dulce",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724819072/food-delivery-app/chocolate.jpg",
+                    "precio": 25000,
+                    "tipo": "pan",
+                    "descripcion":"Deliciso pan de chocolate con un sabor un poco mas dulce"
+                },
+                {
+                    "id": 2,
+                    "nombre": "Pan de chocolate - amargo",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724819072/food-delivery-app/chocolate.jpg",
+                    "precio": 30000,
+                    "tipo": "pan",
+                    "descripcion":"Deliciso pan de chocolate elaborado con cacao al 70%, más nips de cacao al 100%"
+                },
+                {
+                    "id": 3,
+                    "nombre": "Roscas de chocolate - dulces",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724819072/food-delivery-app/chocolate.jpg",
+                    "precio": 12000,
+                    "tipo": "pan",
+                    "descripcion":"Roscas realizadas con un sabor un poco mas dulce, con un chocolate con un 54% de cacao"
+                },
+                {
+                    "id": 4,
+                    "nombre": "Roscas de chocolate - amargo",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724819072/food-delivery-app/chocolate.jpg",
+                    "precio": 15000,
+                    "tipo": "pan",
+                    "descripcion":"Roscas realizadas con chocolate con un 70% de cacao, lo que les da un sabor un poco mas amargo"
+                },
+                {
+                    "id": 5,
+                    "nombre": "Muffins de pan de chocolate",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724819505/food-delivery-app/muffins.jpg",
+                    "precio": 8000,
+                    "tipo": "pan",
+                    "descripcion":"La presentación más pequeña de nuestro pan de chocolate"
+                },
+                {
+                    "id": 6,
+                    "nombre": "Galletas New York",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724819072/food-delivery-app/chocolate.jpg",
+                    "precio": 8000,
+                    "tipo": "galletas",
+                    "descripcion":"Deliciosas Galletas con relleno de nutela y chips de chocolate con cacao al 54%"
+                }
+            ],
+            "adiciones":[]
+        },
+        {
+            "id": 2,
+            "nombre": "Restauarnte Gourmet",
+            "logo": "https://res.cloudinary.com/semojicaf/image/upload/v1724820734/food-delivery-app/restaurante.jpg",
+            "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis. Mauris eu ex.",
+            "estrellas": 4,
+            "horario": "14:00 - 23:00",
+            "tipo": "Gourmet",
+            "carta": [
+                {
+                    "id": 1,
+                    "nombre": "Platillo 1",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724820732/food-delivery-app/carne.jpg",
+                    "precio": 37000,
+                    "tipo": "asados",
+                    "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis. Mauris eu ex."
+                },
+                {
+                    "id": 2,
+                    "nombre": "Platillo 2",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724820732/food-delivery-app/carne.jpg",
+                    "precio": 40000,
+                    "tipo": "asados",
+                    "descripcion":"consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis. Mauris eu ex."
+                },
+                {
+                    "id": 3,
+                    "nombre": "Platillo 3",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724820732/food-delivery-app/pasta.jpg",
+                    "precio": 45000,
+                    "tipo": "pasta",
+                    "descripcion":"RLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis."
+                },
+                {
+                    "id": 4,
+                    "nombre": "platillo 4",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724820732/food-delivery-app/paella.jpg",
+                    "precio": 50000,
+                    "tipo": "arroz",
+                    "descripcion":"consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis. Mauris eu ex."
+                },
+                {
+                    "id": 5,
+                    "nombre": "Platillo 3",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724820732/food-delivery-app/pasta.jpg",
+                    "precio": 48000,
+                    "tipo": "pasta",
+                    "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis."
+                }
+            ],
+            "adiciones":[]
+        },
+        {
+            "id": 3,
+            "nombre": "Heladería",
+            "logo": "https://res.cloudinary.com/semojicaf/image/upload/v1724820732/food-delivery-app/heladerialogo.jpg",
+            "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis. Mauris eu ex.",
+            "estrellas": 3,
+            "horario": "16:00 - 22:00",
+            "tipo": "Heladería",
+            "carta": [
+                {
+                    "id": 1,
+                    "nombre": "Helado1",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724819072/food-delivery-app/chocolate.jpg",
+                    "precio": 8000,
+                    "tipo": "cono",
+                    "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. "
+                },
+                {
+                    "id": 2,
+                    "nombre": "Helado 2",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724819072/food-delivery-app/chocolate.jpg",
+                    "precio": 10000,
+                    "tipo": "cono",
+                    "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. "
+                },
+                {
+                    "id": 3,
+                    "nombre": "Helado 3",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724819072/food-delivery-app/chocolate.jpg",
+                    "precio": 9500,
+                    "tipo": "brownie",
+                    "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. "
+                },
+                {
+                    "id": 4,
+                    "nombre": "Helado 4",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724819072/food-delivery-app/chocolate.jpg",
+                    "precio": 15000,
+                    "tipo": "ensalada",
+                    "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. "
+                },
+                {
+                    "id": 5,
+                    "nombre": "Helado 5",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724819505/food-delivery-app/muffins.jpg",
+                    "precio": 8000,
+                    "tipo": "copa",
+                    "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. "
+                },
+                {
+                    "id": 6,
+                    "nombre": "Helado 6",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724819072/food-delivery-app/chocolate.jpg",
+                    "precio": 12000,
+                    "tipo": "bebida",
+                    "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. "
+                }
+            ],
+            "adiciones":[
+                {
+                    "nombre":"chispas",
+                    "precio":3000
+                },
+                {
+                    "nombre":"salsa",
+                    "precio":5000
+                },
+                {
+                    "nombre":"frutos secos",
+                    "precio":7000
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "nombre": "El Bar",
+            "logo": "https://res.cloudinary.com/semojicaf/image/upload/v1724820734/food-delivery-app/bar.jpg",
+            "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis. Mauris eu ex.",
+            "estrellas": 3,
+            "horario": "18:00 - 03:00",
+            "tipo": "bebidas alicoradas",
+            "carta": [
+                {
+                    "id": 1,
+                    "nombre": "Bebida 1",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724820733/food-delivery-app/coctel.jpg",
+                    "precio": 25000,
+                    "tipo": "coctel",
+                    "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis. Mauris eu ex."
+                },
+                {
+                    "id": 2,
+                    "nombre": "Bebida 2",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724820733/food-delivery-app/coctel.jpg",
+                    "precio": 25000,
+                    "tipo": "coctel",
+                    "descripcion":"consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis. Mauris eu ex."
+                },
+                {
+                    "id": 3,
+                    "nombre": "Bebida 3",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724820733/food-delivery-app/coctel.jpg",
+                    "precio": 25000,
+                    "tipo": "coctel",
+                    "descripcion":"RLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis."
+                },
+                {
+                    "id": 4,
+                    "nombre": "Bebida 4",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724820732/food-delivery-app/whiskey.jpg",
+                    "precio": 150000,
+                    "tipo": "whisky",
+                    "descripcion":"consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis. Mauris eu ex."
+                },
+                {
+                    "id": 5,
+                    "nombre": "Bebida 5",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724820732/food-delivery-app/whiskey.jpg",
+                    "precio": 90000,
+                    "tipo": "ron",
+                    "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis."
+                },
+                {
+                    "id": 6,
+                    "nombre": "Bebida 6",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724820732/food-delivery-app/whiskey.jpg",
+                    "precio": 180000,
+                    "tipo": "whisky",
+                    "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis."
+                },
+                {
+                    "id": 7,
+                    "nombre": "Bebida 7",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724820732/food-delivery-app/whiskey.jpg",
+                    "precio": 200000,
+                    "tipo": "aguardiente",
+                    "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis."
+                },
+                {
+                    "id": 8,
+                    "nombre": "Bebida 8",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724820733/food-delivery-app/coctel3.jpg",
+                    "precio": 10000,
+                    "tipo": "cerveza",
+                    "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis."
+                },
+                {
+                    "id": 9,
+                    "nombre": "Bebida 9",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724820733/food-delivery-app/coctel3.jpg",
+                    "precio": 10000,
+                    "tipo": "cerveza",
+                    "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis."
+                }
+
+            ],
+            "adiciones":[]
+        },
+        {
+            "id": 5,
+            "nombre": "Comida Rapida",
+            "logo": "https://res.cloudinary.com/semojicaf/image/upload/v1724820175/food-delivery-app/logoFF.jpg",
+            "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis. Mauris eu ex.",
+            "estrellas": 3,
+            "horario": "17:00 - 23:00",
+            "tipo": "comidas rápidas",
+            "carta": [
+                {
+                    "id": 1,
+                    "nombre": "hamburguesa 1",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724820072/food-delivery-app/hamburguesa.jpg",
+                    "precio": 25000,
+                    "tipo": "hamburguesa",
+                    "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis. Mauris eu ex."
+                },
+                {
+                    "id": 2,
+                    "nombre": "hamburguesa 2",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724820072/food-delivery-app/hamburguesa.jpg",
+                    "precio": 27000,
+                    "tipo": "hamburguesa",
+                    "descripcion":"consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis. Mauris eu ex."
+                },
+                {
+                    "id": 3,
+                    "nombre": "hamburguesa 3",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724820072/food-delivery-app/hamburguesa.jpg",
+                    "precio": 28500,
+                    "tipo": "coctel",
+                    "descripcion":"RLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis."
+                },
+                {
+                    "id": 4,
+                    "nombre": "Perro 1",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724820071/food-delivery-app/Perros-calientes.jpg",
+                    "precio": 22000,
+                    "tipo": "whisky",
+                    "descripcion":"consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis. Mauris eu ex."
+                },
+                {
+                    "id": 5,
+                    "nombre": "Perro 2",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724820071/food-delivery-app/Perros-calientes.jpg",
+                    "precio": 18000,
+                    "tipo": "ron",
+                    "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis."
+                },
+                {
+                    "id": 6,
+                    "nombre": "Perro 3",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724820071/food-delivery-app/Perros-calientes.jpg",
+                    "precio": 23000,
+                    "tipo": "whisky",
+                    "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis."
+                },
+                {
+                    "id": 7,
+                    "nombre": "salchipapa 1",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724820072/food-delivery-app/salchipapa.jpg",
+                    "precio": 32000,
+                    "tipo": "salchipapa",
+                    "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis."
+                },
+                {
+                    "id": 8,
+                    "nombre": "salchipapa 2",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724820072/food-delivery-app/salchipapa.jpg",
+                    "precio": 35000,
+                    "tipo": "salchipapa",
+                    "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis."
+                },
+                {
+                    "id": 9,
+                    "nombre": "salchipapa 3",
+                    "foto": "https://res.cloudinary.com/semojicaf/image/upload/v1724820072/food-delivery-app/salchipapa.jpg",
+                    "precio": 28000,
+                    "tipo": "salchipapa",
+                    "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse euismod facilisis ipsum at pretium. Sed finibus vitae nisi nec fermentum. Quisque sed hendrerit metus, eu dapibus turpis."
+                }
+
+            ],
+            "adiciones":[
+                {
+                    "nombre":"tocineta",
+                    "precio":5200
+                },
+                {
+                    "nombre":"piña",
+                    "precio":3000
+                },
+                {
+                    "nombre":"carne",
+                    "precio":7000
+                },
+                {
+                    "nombre":"papas",
+                    "precio":2500
+                }
+            ]
+        }
+    ],
     "usuarios": [
         {
             "id": 1,
             "nombre": "Sebastian Mojica",
-            "imgUrl": "https://avatars.githubusercontent.com/u/167829271?v=4",
-            "imgHeader": "https://i.imgur.com/wSQAN0D.jpg",
-            "correo": "sebastian@mail.com",
+            "celular": 3157281832,
+            "email": "sebastian.mojica28@gmail.com",
             "clave": "sebastian123",
-            "descripcion": "Hola Bienvenidos a mi perfil",
-            "seguidores": 100,
-            "likes": 100,
-            "seguidos": [
-                "Luisa Cabrera",
-                "Julian Ortiz"
-            ],
-            "posteos": [
-                {
-                    "id": 1,
-                    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Kim_Jennie_%28%EA%B9%80%EC%A0%9C%EB%8B%88%29_05.jpg/800px-Kim_Jennie_%28%EA%B9%80%EC%A0%9C%EB%8B%88%29_05.jpg",
-                    "descripcion": "loremLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor.",
-                    "likes": 5,
-                    "comentarios": []
-                },
-                {
-                    "id": 2,
-                    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Kim_Jennie_%28%EA%B9%80%EC%A0%9C%EB%8B%88%29_05.jpg/800px-Kim_Jennie_%28%EA%B9%80%EC%A0%9C%EB%8B%88%29_05.jpg",
-                    "descripcion": "loremLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor.",
-                    "likes": 3,
-                    "comentarios": []
-                },
-                {
-                    "id": 3,
-                    "imgUrl": "https://media.vogue.mx/photos/62d7057bc2a76d1a5917f7d0/2:3/w_1600,c_limit/jennie-kim.jpg",
-                    "descripcion": "loremLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor.",
-                    "likes": 1,
-                    "comentarios": []
-                }
-            ]
+            "rol": "administrador"
         },
         {
             "id": 2,
-            "nombre": "Luisa Cabrera",
-            "imgUrl": "https://media.vogue.mx/photos/62d7057bc2a76d1a5917f7d0/2:3/w_1600,c_limit/jennie-kim.jpg",
-            "imgHeader": "https://i.imgur.com/wSQAN0D.jpg",
-            "correo": "luisa@mail.com",
-            "clave": "luisa123",
-            "descripcion": "Lorem ipsum dolor sit amet.",
-            "seguidores": 10,
-            "likes": 80,
-            "seguidos": [
-                "Sebastian Mojica",
-                "Julian Ortiz"
-            ],
-            "posteos": [
-                {
-                    "id": 1,
-                    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Kim_Jennie_%28%EA%B9%80%EC%A0%9C%EB%8B%88%29_05.jpg/800px-Kim_Jennie_%28%EA%B9%80%EC%A0%9C%EB%8B%88%29_05.jpg",
-                    "descripcion": "loremLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor.",
-                    "likes": 2,
-                    "comentarios": []
-                },
-                {
-                    "id": 2,
-                    "imgUrl": "https://media.vogue.mx/photos/62d7057bc2a76d1a5917f7d0/2:3/w_1600,c_limit/jennie-kim.jpg",
-                    "descripcion": "loremLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor.",
-                    "likes": 10,
-                    "comentarios": []
-                },
-                {
-                    "id": 3,
-                    "imgUrl": "https://media.vogue.mx/photos/62d7057bc2a76d1a5917f7d0/2:3/w_1600,c_limit/jennie-kim.jpg",
-                    "descripcion": "loremLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor.",
-                    "likes": 8,
-                    "comentarios": []
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "nombre": "Julian Ortiz",
-            "img": "https://avatars.githubusercontent.com/u/81268917?v=4",
-            "imgHeader": "https://i.imgur.com/wSQAN0D.jpg",
-            "correo": "julian@mail.com",
-            "clave": "julian123",
-            "descripcion": "Lorem ipsum dolor sit amet",
-            "seguidores": 80,
-            "likes": 30,
-            "seguidos": [
-                "Sebastian Mojica",
-                "Luisa Cabrera"
-            ],
-            "posteos": [
-                {
-                    "id": 1,
-                    "imgUrl": "https://media.vogue.mx/photos/62d7057bc2a76d1a5917f7d0/2:3/w_1600,c_limit/jennie-kim.jpg",
-                    "descripcion": "loremLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor.",
-                    "likes": 8,
-                    "comentarios": []
-                },
-                {
-                    "id": 2,
-                    "imgUrl": "https://media.vogue.mx/photos/62d7057bc2a76d1a5917f7d0/2:3/w_1600,c_limit/jennie-kim.jpg",
-                    "descripcion": "loremLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor.",
-                    "likes": 2,
-                    "comentarios": []
-                },
-                {
-                    "id": 3,
-                    "imgUrl": "https://media.vogue.mx/photos/62d7057bc2a76d1a5917f7d0/2:3/w_1600,c_limit/jennie-kim.jpg",
-                    "descripcion": "loremLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor.",
-                    "likes": 9,
-                    "comentarios": []
-                }
-            ]
+            "nombre": "Laura Mojica",
+            "celular": 3135505637,
+            "email": "laura@mail.com",
+            "clave": "laura123",
+            "rol": "cliente"
         }
     ]
 }
