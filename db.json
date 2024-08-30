@@ -385,7 +385,8 @@
             "celular": 3157281832,
             "email": "sebastian.mojica28@gmail.com",
             "clave": "sebastian123",
-            "rol": "administrador"
+            "rol": "administrador",
+            "historialpedidos":[]
         },
         {
             "id": 2,
@@ -393,7 +394,8 @@
             "celular": 3135505637,
             "email": "laura@mail.com",
             "clave": "laura123",
-            "rol": "cliente"
+            "rol": "cliente",
+            "historialpedidos":[]
         }
     ]
 }
